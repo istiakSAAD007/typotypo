@@ -4,7 +4,9 @@
   "description": "This is best place for learning and practicing the typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/hello.js",
+    "dev": "tsc && node dist/arrays.js"
   },
   "keywords": [],
   "author": "Saad",
